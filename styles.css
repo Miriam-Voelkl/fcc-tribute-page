@@ -18,14 +18,15 @@ header {
 
 #main {
   margin: 24px auto;
-  border-radius: 4px;
   max-width: 800px;
+  width: 95%;
 }
 
 #img-div {
   background-color: white;
   margin: 0;
   padding: 16px;
+  border-radius: 4px;
 }
 
 #image {
@@ -33,16 +34,18 @@ header {
   display: block;
   height: auto;
   max-width: 100%;
+  box-shadow: 2px 2px 4px #514842;
 }
 
 #img-caption {
   font-size: 1rem;
   font-style: italic;
+  padding-top: 4px;
 }
 
 ul {
   text-align: left;
-  line-height: 2.2rem;
+  line-height: 32px;
 }
 
 li {
@@ -61,7 +64,7 @@ blockquote {
   font-style: italic;
   text-align: left;
   padding: 16px;
-  line-height: 0.8rem;
+  line-height: 1.2rem;
 }
 
 #tribute-link:hover {
