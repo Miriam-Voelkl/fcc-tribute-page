@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.2rem;
+  background-color: thistle;
+  text-align: center;
+}
+
+header {
+  padding: 1rem;
+}
+
+#main {
+  margin: 24px auto;
+  border-radius: 4px;
+  max-width: 800px;
+}
+
+#img-div {
+  background-color: white;
+  margin: 0;
+  padding: 16px;
+}
+
+#image {
+  margin: 0 auto;
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+#img-caption {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+ul {
+  text-align: left;
+  line-height: 2.2rem;
+}
+
+li {
+  margin: 16px auto;
+}
+
+#tribute-info {
+}
+
+#tribute-link {
+  text-decoration: none;
+  color: #514842;
+}
+
+blockquote {
+  font-style: italic;
+  text-align: left;
+  padding: 16px;
+  line-height: 0.8rem;
+}
+
+#tribute-link:hover {
+  color: #5e724f;
+  text-decoration: underline;
+}
